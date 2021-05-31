@@ -1,0 +1,17 @@
+{
+  "ReRoutes": [
+    {
+      "DownStreamPathTemplate": "/api/shipwreck",
+      "DownStreamScheme": "http",
+      "DownStreamHostandPorts": [
+        {
+          "Host": "localhost",
+          "Port": "47880"
+        }
+      ],
+      "UpStreamPathTemplate": "/api/shipwreck",
+      "UpStreamHttpMethod":["GET"]
+    }
+
+  ]
+}
